@@ -1,0 +1,43 @@
+name: dtdc
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_secure_storage: ^9.2.2
+  google_fonts: ^6.2.1
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  http: ^1.2.2
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.5
+  file_picker: ^8.1.2
+  flutter_launcher_icons: ^0.13.1
+  image_picker: ^1.1.2
+  geolocator: ^13.0.1
+  google_maps_flutter: ^2.9.0 
+  geocoding: ^3.0.0 
+  location: ^5.0.3
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
